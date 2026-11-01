@@ -1,0 +1,38 @@
+﻿# ===== 绝对不能提交：含明文 API Key =====
+启动.bat
+*.bat
+
+# ===== 隐私：聊天记录、共同回忆、记忆档案、她的照片、你上传的图片 =====
+chat_save.json
+memories.json
+memories.md
+memory_log.json
+memory_profile.json
+moments.json
+persona.json
+persona.md
+images/
+uploads/
+saves/
+截图/
+_backup/
+
+# ===== 语音资源：模型权重与第三方库过大，桌面端源码按需放置 =====
+voice/acoustic.pt
+voice/source.wav
+voice/voice.json
+voice/acoustic.meta.json
+voice/cues.txt
+voice/vendored/
+voice/kokoro-multi-lang-v1_1/
+voice/melo/
+voice/cache/
+voice/samples/
+voice/tts/
+
+# 运行时
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
